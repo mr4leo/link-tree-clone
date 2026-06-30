@@ -228,3 +228,15 @@ main {
   /* color: #FFA12B; */
   transform: translateY(-2px);
 }
+
+@media (max-width: 600px) {
+.card-row {
+  flex-direction: column;
+  gap: 4rem;
+  padding: 6rem 0;
+}
+
+main {
+  height: 100%;
+}
+}
